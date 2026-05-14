@@ -1,5 +1,8 @@
 # MCP Tool Cards
 
+[![Validate examples](https://github.com/mizcausevic-dev/mcp-tool-card-spec/actions/workflows/validate.yml/badge.svg)](https://github.com/mizcausevic-dev/mcp-tool-card-spec/actions/workflows/validate.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 A draft specification for **per-tool disclosure documents** describing what an MCP tool does, what it can break, what it has been tested with, and how to report misbehavior.
 
 The Model Context Protocol gives clients a way to *discover* an MCP server's tool surface. It does not give the server a way to *disclose* each tool's side effects, safety posture, latency profile, or tested-LLM compatibility. MCP Tool Cards fill that gap.
